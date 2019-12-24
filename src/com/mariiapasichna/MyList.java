@@ -83,7 +83,8 @@ public class MyList {
     }
 
     private void checkIndex(int index) {
-        if (index < 0 || index > arr.length)
+        if (index < 0 || index > arr.length) {
             System.out.println("Index out of range");
+        }
     }
 }
